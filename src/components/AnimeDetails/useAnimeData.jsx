@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchAnimeData } from '../services/apiServices';
+import { fetchAnimeData } from '../../services/apiServices';
 
 const useAnimeData = () => {
   const { id } = useParams();
